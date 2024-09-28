@@ -1,0 +1,29 @@
+name: reciclaje_app
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  another_flutter_splash_screen: ^1.2.1
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  flutter_tflite: ^1.0.1
+  image_picker: ^0.8.9
+  lottie: ^3.1.2
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/converted_tflite/
+    - assets/animations/
